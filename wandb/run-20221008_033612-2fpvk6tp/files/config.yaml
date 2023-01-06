@@ -1,0 +1,49 @@
+wandb_version: 1
+
+Architecture:
+  desc: null
+  value: DDPG
+Lambda:
+  desc: null
+  value:
+  - 2
+Lambda E:
+  desc: null
+  value:
+  - 5
+Range:
+  desc: null
+  value: 10
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.1
+    framework: keras
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.10.5
+    start_time: 1665180372.399777
+    t:
+      1:
+      - 2
+      - 3
+      - 55
+      2:
+      - 2
+      - 3
+      - 55
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.10.5
+      5: 0.13.1
+      8:
+      - 3
+      - 5
+episodes:
+  desc: null
+  value: 2500
+steps:
+  desc: null
+  value: 500

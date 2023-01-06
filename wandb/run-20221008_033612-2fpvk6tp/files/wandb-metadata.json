@@ -1,0 +1,16 @@
+{
+    "os": "Windows-10-10.0.19043-SP0",
+    "python": "3.10.5",
+    "heartbeatAt": "2022-10-07T22:06:14.117562",
+    "startedAt": "2022-10-07T22:06:12.376040",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\user\\Desktop\\Python\\DDPG\\main.py",
+    "codePath": "main.py",
+    "host": "LAPTOP-U4LUQAHD",
+    "username": "user",
+    "executable": "D:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python310\\python.exe"
+}

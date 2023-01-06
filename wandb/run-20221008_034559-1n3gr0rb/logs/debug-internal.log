@@ -1,0 +1,39 @@
+2022-10-08 03:45:59,065 INFO    StreamThr :5044 [internal.py:wandb_internal():90] W&B internal server running at pid: 5044, started at: 2022-10-08 03:45:59.064531
+2022-10-08 03:45:59,067 DEBUG   HandlerThread:5044 [handler.py:handle_request():141] handle_request: status
+2022-10-08 03:45:59,068 DEBUG   SenderThread:5044 [sender.py:send_request():316] send_request: status
+2022-10-08 03:45:59,073 DEBUG   SenderThread:5044 [sender.py:send():302] send: header
+2022-10-08 03:45:59,073 INFO    WriterThread:5044 [datastore.py:open_for_write():75] open: C:\Users\user\Desktop\Python\DDPG\wandb\run-20221008_034559-1n3gr0rb\run-1n3gr0rb.wandb
+2022-10-08 03:45:59,073 DEBUG   SenderThread:5044 [sender.py:send():302] send: run
+2022-10-08 03:46:00,078 DEBUG   HandlerThread:5044 [handler.py:handle_request():141] handle_request: check_version
+2022-10-08 03:46:00,089 INFO    SenderThread:5044 [dir_watcher.py:__init__():216] watching files in: C:\Users\user\Desktop\Python\DDPG\wandb\run-20221008_034559-1n3gr0rb\files
+2022-10-08 03:46:00,089 INFO    SenderThread:5044 [sender.py:_start_run_threads():913] run started: 1n3gr0rb with start time 1665180959.059729
+2022-10-08 03:46:00,089 DEBUG   SenderThread:5044 [sender.py:send():302] send: summary
+2022-10-08 03:46:00,090 INFO    SenderThread:5044 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-10-08 03:46:00,090 DEBUG   SenderThread:5044 [sender.py:send_request():316] send_request: check_version
+2022-10-08 03:46:01,096 INFO    Thread-12 :5044 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\user\Desktop\Python\DDPG\wandb\run-20221008_034559-1n3gr0rb\files\wandb-summary.json
+2022-10-08 03:46:01,350 DEBUG   HandlerThread:5044 [handler.py:handle_request():141] handle_request: run_start
+2022-10-08 03:46:01,366 DEBUG   HandlerThread:5044 [meta.py:__init__():35] meta init
+2022-10-08 03:46:01,366 DEBUG   HandlerThread:5044 [meta.py:__init__():50] meta init done
+2022-10-08 03:46:01,366 DEBUG   HandlerThread:5044 [meta.py:probe():216] probe
+2022-10-08 03:46:01,369 DEBUG   HandlerThread:5044 [meta.py:_save_pip():54] save pip
+2022-10-08 03:46:01,371 DEBUG   HandlerThread:5044 [meta.py:_save_pip():68] save pip done
+2022-10-08 03:46:01,371 DEBUG   HandlerThread:5044 [meta.py:probe():254] probe done
+2022-10-08 03:46:01,418 DEBUG   SenderThread:5044 [sender.py:send():302] send: files
+2022-10-08 03:46:01,418 INFO    SenderThread:5044 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-10-08 03:46:01,430 DEBUG   HandlerThread:5044 [handler.py:handle_request():141] handle_request: stop_status
+2022-10-08 03:46:01,430 DEBUG   SenderThread:5044 [sender.py:send_request():316] send_request: stop_status
+2022-10-08 03:46:02,108 INFO    Thread-12 :5044 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\user\Desktop\Python\DDPG\wandb\run-20221008_034559-1n3gr0rb\files\requirements.txt
+2022-10-08 03:46:02,109 INFO    Thread-12 :5044 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\user\Desktop\Python\DDPG\wandb\run-20221008_034559-1n3gr0rb\files\wandb-metadata.json
+2022-10-08 03:46:02,256 DEBUG   SenderThread:5044 [sender.py:send():302] send: telemetry
+2022-10-08 03:46:03,122 INFO    Thread-12 :5044 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\user\Desktop\Python\DDPG\wandb\run-20221008_034559-1n3gr0rb\files\output.log
+2022-10-08 03:46:03,311 INFO    Thread-16 :5044 [upload_job.py:push():138] Uploaded file C:\Users\user\AppData\Local\Temp\tmpbo93l10pwandb\7v5ihao9-wandb-metadata.json
+2022-10-08 03:46:05,152 INFO    Thread-12 :5044 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\user\Desktop\Python\DDPG\wandb\run-20221008_034559-1n3gr0rb\files\output.log
+2022-10-08 03:46:09,209 INFO    Thread-12 :5044 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\user\Desktop\Python\DDPG\wandb\run-20221008_034559-1n3gr0rb\files\output.log
+2022-10-08 03:46:15,270 INFO    Thread-12 :5044 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\user\Desktop\Python\DDPG\wandb\run-20221008_034559-1n3gr0rb\files\output.log
+2022-10-08 03:46:17,272 DEBUG   HandlerThread:5044 [handler.py:handle_request():141] handle_request: stop_status
+2022-10-08 03:46:17,273 DEBUG   SenderThread:5044 [sender.py:send_request():316] send_request: stop_status
+2022-10-08 03:46:29,418 INFO    Thread-12 :5044 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\user\Desktop\Python\DDPG\wandb\run-20221008_034559-1n3gr0rb\files\output.log
+2022-10-08 03:46:30,420 INFO    Thread-12 :5044 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\user\Desktop\Python\DDPG\wandb\run-20221008_034559-1n3gr0rb\files\config.yaml
+2022-10-08 03:46:31,783 DEBUG   SenderThread:5044 [sender.py:send():302] send: stats
+2022-10-08 03:46:33,075 DEBUG   HandlerThread:5044 [handler.py:handle_request():141] handle_request: stop_status
+2022-10-08 03:46:33,076 DEBUG   SenderThread:5044 [sender.py:send_request():316] send_request: stop_status

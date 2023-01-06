@@ -1,0 +1,7 @@
+
+  0%|                                                                                      | 0/2500 [00:00<?, ?it/s]
+  0%|                                                                                      | 0/2500 [00:00<?, ?it/s]C:\Users\user\Desktop\Python\DDPG\environment.py:35: RuntimeWarning: divide by zero encountered in log2
+  return np.log2(x)
+  0%|                                                                            | 1/2500 [00:12<8:34:31, 12.35s/it]
+
+  0%|                                                                            | 2/2500 [00:25<8:48:40, 12.70s/it]
