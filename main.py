@@ -6,8 +6,13 @@ import matplotlib.pyplot as plt
 from environment import Env
 from plot import MakePLT
 
-#import wandb
-#wandb.login()
+# Arguments:
+# Range = Buffer capacity for both data and energy BufferError
+# Quick Eval = Load and Evaluate
+# Load = Load pretrained model
+# Evaluate = Evaluate trained policy
+# lam_1, lam_2,..., lam_N = expected data arrival rate for N nodes
+# lam_E_1, lam_E_2,..., lam_E_N = expected energy arrival rate for N nodes
 
 if __name__=='__main__':
     arguments = sys.argv[1:]# Range, Eval, Load Evaluate, Lam, LamE
